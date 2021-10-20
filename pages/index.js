@@ -5,14 +5,14 @@ import Link from 'next/link'
 const Card = ({name, title, description, url}) => {
   return (
     <>
-      <section class={`${styles.card} text-gray-600 my-16 w-4/5 mx-auto body-font shadow-2xl`}>
-        <div class="container px-5 lg:py-20 py-12 mx-auto flex flex-wrap items-center">
-          <div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg py-5 px-8 flex flex-col md:ml-auto w-full mb-8">
-              <h1 class="text-gray-900 text-lg font-medium title-font mb-5">{name}</h1>
+      <section className={`${styles.card} text-gray-600 my-16 w-4/5 mx-auto body-font shadow-2xl`}>
+        <div className="container px-5 lg:py-20 py-12 mx-auto flex flex-wrap items-center">
+          <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg py-5 px-8 flex flex-col md:ml-auto w-full mb-8">
+              <h1 className="text-gray-900 text-lg font-medium title-font mb-5">{name}</h1>
           </div>
-          <div class="lg:w-3/5 lg:ml-10 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-            <h1 class="title-font font-medium text-3xl text-gray-100"> {title} </h1>
-            <p class="leading-relaxed mt-4"> {description} </p>
+          <div className="lg:w-3/5 lg:ml-10 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+            <h1 className="title-font font-medium text-3xl text-gray-100"> {title} </h1>
+            <p className="leading-relaxed mt-4"> {description} </p>
           </div>
         </div>
         <div className="w-full">
