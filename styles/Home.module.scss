@@ -1,18 +1,26 @@
 // Navbar
 .nav{
-    background-color: var(--p-color);
-    .links a{
+    .menuBtn{
         &:hover{
             background-color: rgba(255, 255, 255, 0.2);
         }
     }
+    .links{
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 5px;
+        padding: 5px;
+        a{
+            &:hover{
+                background-color: rgba(0, 0, 0, 0.1);   
+            }
+        }
+    } 
 }
 
 // Hero Section
 .hero{
-    background-color: var(--p-color);
     padding: {
-        top: 1.5rem; bottom: 1.5rem;
+        top: 1rem; bottom: 1rem;
     }
     form {
         button {

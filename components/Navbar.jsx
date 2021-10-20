@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
 const Navbar = () => {
@@ -12,14 +13,14 @@ const Navbar = () => {
             <nav className={styles.nav + ' flex items-center flex-wrap p-3'}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
-                        <img src="https://telegra.ph/file/384b138abd49e8d13636f.png" width="50" height="50"/>
+                        <img src="https://telegra.ph/file/384b138abd49e8d13636f.png" width={50} height={50} alt="Logo" />
                         <span className='text-xl text-white font-bold uppercase tracking-wide'>
                             Disease Predictor
                         </span>
                     </a>
                 </Link>
                 <button
-                    className=' inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none'
+                    className={`${styles.menuBtn} inline-flex p-3 hover:bg-green-600 rounded lg:hidden text-white ml-auto hover:text-white outline-none`}
                     onClick={handleClick}
                 >
                     <svg
