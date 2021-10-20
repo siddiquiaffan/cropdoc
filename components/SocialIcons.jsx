@@ -4,27 +4,27 @@ const SocialIcons = ({gi, fb, tw, is, li}) => {
     return(<>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start text-xl">
             {
-                gi ? <a className="text-gray-100 px-3" target='_blank' rel="noreferrer" href={gi}>
+                gi ? <a className="icon text-gray-100 px-3 hover:scale-125 transform" target='_blank' rel="noreferrer" href={gi}>
                         <FaGithub />
                 </a> : null
             }
             {
-                li ? <a className="text-gray-100 px-3" target='_blank' rel="noreferrer" href={li}>
+                li ? <a className="icon text-gray-100 px-3 hover:scale-125 transform" target='_blank' rel="noreferrer" href={li}>
                         <FaLinkedinIn />
                 </a> : null
             }
             {
-                tw ? <a className="text-gray-100 px-3" target='_blank' rel="noreferrer" href={tw}>
+                tw ? <a className="icon text-gray-100 px-3 hover:scale-125 transform" target='_blank' rel="noreferrer" href={tw}>
                         <FaTwitter />
                 </a> : null
             }
             {
-                fb ? <a className="text-gray-100 px-3" target='_blank' rel="noreferrer" href={fb}>
+                fb ? <a className="icon text-gray-100 px-3 hover:scale-125 transform" target='_blank' rel="noreferrer" href={fb}>
                         <FaFacebookF />
                 </a> : null
             }
             {
-                is ? <a className="text-gray-100 px-3" target='_blank' rel="noreferrer" href={is}>
+                is ? <a className="icon text-gray-100 px-3 hover:scale-125 transform" target='_blank' rel="noreferrer" href={is}>
                         <FaInstagram />
                 </a> : null
             }
