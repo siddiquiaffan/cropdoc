@@ -33,3 +33,12 @@
         }
     }
 }
+
+.card{
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    transition: 0.3s all;
+    &:hover{
+        transform: scale(1.04);
+    }
+}

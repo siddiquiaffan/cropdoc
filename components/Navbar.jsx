@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className={styles.nav + ' flex items-center flex-wrap p-3'}>
+            <section id='nav' className={styles.nav + ' flex items-center flex-wrap p-3'}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
                         <img src="https://telegra.ph/file/384b138abd49e8d13636f.png" width={50} height={50} alt="Logo" />
@@ -50,7 +50,7 @@ const Navbar = () => {
                         </Link>
                         <Link href='/'>
                             <a className='mx-2 lg:inline-flex lg:w-auto w-full px-3 py-2 rounded text-white font-bold items-center justify-center hover:bg-green-600 hover:text-white'>
-                                Services
+                                Try It
                             </a>
                         </Link>
                         <Link href='/'>
@@ -65,7 +65,7 @@ const Navbar = () => {
                         </Link>
                     </div>
                 </div>
-            </nav>
+            </section>
         </>
     )
 }

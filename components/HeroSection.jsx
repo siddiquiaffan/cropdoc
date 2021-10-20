@@ -19,7 +19,7 @@ const HeroSection = () => {
                                 <label htmlFor="hero-field" className="leading-7 text-sm text-gray-300">Feedback</label>
                                 <input type="text" id="hero-field" name="hero-field" required className="w-full bg-transparent bg-opacity-50 rounded border border-gray-300 focus:ring-2 focus:ring-indigo-200 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
-                            <button type="submit" className="inline-flex text-white bg-gray-300	 border-0 py-1.5 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+                            <button type="submit" className="btn inline-flex text-white bg-gray-300 border-0 py-1.5 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
                         </div>
                     </form>
                     <p className="text-sm mt-2 text-gray-300 mb-8 w-full">Submit Feedback
