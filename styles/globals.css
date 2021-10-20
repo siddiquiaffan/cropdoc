@@ -1,3 +1,9 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
 :root{
   --p-color: #156775;
   --p-col-rgb: rgba(2, 68, 80);

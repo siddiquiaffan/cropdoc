@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import '../styles.css'
 import Router from 'next/router'
 import Layout from '../components/Layout'
 import { useState, useEffect } from 'react'
