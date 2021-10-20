@@ -1,3 +1,9 @@
+:root{
+  --p-color: #156775;
+  --p-col-rgb: rgba(2, 68, 80);
+  --p-col-code: 2, 68, 80;
+}
+
 html,
 body {
   padding: 0;
@@ -12,5 +18,14 @@ a {
 }
 
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fwrap{ flex-wrap: wrap; }
