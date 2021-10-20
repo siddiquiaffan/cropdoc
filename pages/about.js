@@ -1,15 +1,25 @@
 import Image from 'next/image'
+import SocialIcons from '../components/SocialIcons'
+import styles from '../styles/Home.module.scss'
 
 const UserCard = ({image, name, profession}) => {
     return (<>
-        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-            <div className="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+        <div className={`p-2 lg:w-1/3 md:w-1/2 w-full`}>
+            <div className={`${styles.card} h-full flex items-center p-4 rounded-lg`}>
                 <div className="mr-5">
                     <Image src={image ? image : ''} height={65} width={65} alt='' className="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-10" />
                 </div>
                 <div className="flex-grow">
                     <h2 className="text-gray-200 title-font font-medium"> {name} </h2>
                     <p className="text-gray-500"> {profession} </p>
+                    <br />
+                    <SocialIcons 
+                        gi="https://github.com/AffanTheBest/disease-prediction"
+                        fb="https://facebook.com"
+                        tw="https://twitter.com/affanthebest"
+                        is="https://instagram.com/sid_affan"
+                        li="https://www.linkedin.com/in/affanthebest/"
+                    />
                 </div>
             </div>
         </div>
