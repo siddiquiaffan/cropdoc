@@ -40,4 +40,6 @@ const About = () => {
     )
 }
 
+About.seo = {title: 'About Us - Disease Prediction', description: 'We\'re a group of students(developers) trying to build something unique and useful.'}
+
 export default About

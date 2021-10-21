@@ -27,7 +27,7 @@ const Card = ({name, title, description, url}) => {
   )
 }
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
@@ -46,3 +46,7 @@ export default function Home() {
     </>
   )
 }
+
+Home.seo = {title: 'Disease Prediction - Crop plant disease prediction powered by AI.', description: 'Disease Prediction - AI based crop plant disease prediction. Get disease causes, symptoms, cure just by providing the plant image.'}
+
+export default Home

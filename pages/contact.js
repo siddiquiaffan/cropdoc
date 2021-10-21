@@ -53,4 +53,6 @@ const Contact = () => {
     </>
 }
 
+Contact.seo = {title: 'Contact Us - Disease Prediction', description: 'You Contact Us Through The Provided Form.'}
+
 export default Contact

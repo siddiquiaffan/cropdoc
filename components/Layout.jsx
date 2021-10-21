@@ -1,16 +1,10 @@
-import { BackTop } from 'antd';
-import Navbar from './Navbar';
-import Footer from './Footer';
-// import SearchBar from '../SearchBar';
-import {useRouter} from 'next/router';
-import {useEffect} from 'react';
+import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Layout = ({children}) => {
     return (
         <>
             <Navbar />
-            {/* <BackTop />  */}
-            {/* <SearchBar /> */}
             {children}
             <Footer />
         </>
