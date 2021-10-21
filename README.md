@@ -16,4 +16,4 @@ Click above to deploy to [vercel](https://vercel.com)
 - [Siddiqui Affan](https://github.com/AffanTheBest/)
 - [Siddiqui Sufiyan](https://github.com/sufiyan571/)
 - [Shaikh Aman](https://www.github.com/Aman3786/)
-- Shaikh Rauf
+- [Shaikh Rauf](https://github.com/ImRauf/)
