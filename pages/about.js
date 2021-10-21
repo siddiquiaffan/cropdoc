@@ -2,7 +2,8 @@ import Image from 'next/image'
 import SocialIcons from '../components/SocialIcons'
 import styles from '../styles/Home.module.scss'
 
-const UserCard = ({image, name, profession}) => {
+const UserCard = ({user}) => {
+    const {image, name, profession, gi, fb, tw, is, li} = user
     return (<>
         <div className={`p-2 lg:w-1/3 md:w-1/2 w-full`}>
             <div className={`${styles.card} h-full flex items-center p-4 rounded-lg`}>
@@ -13,13 +14,7 @@ const UserCard = ({image, name, profession}) => {
                     <h2 className="text-gray-200 title-font font-medium"> {name} </h2>
                     <p className="text-gray-500"> {profession} </p>
                     <br />
-                    <SocialIcons 
-                        gi="https://github.com/AffanTheBest/disease-prediction"
-                        fb="https://facebook.com"
-                        tw="https://twitter.com/affanthebest"
-                        is="https://instagram.com/sid_affan"
-                        li="https://www.linkedin.com/in/affanthebest/"
-                    />
+                    <SocialIcons gi={gi} fb={fb} tw={tw} is={is} li={li} />
                 </div>
             </div>
         </div>
@@ -27,12 +22,8 @@ const UserCard = ({image, name, profession}) => {
 }
 
 const About = () => {
-    const users = [
-        {image: 'https://telegra.ph/file/073d7bc6f58d7e28cd707.jpg', name: 'Siddiqui Affan', profession: 'Full Stack Developer'},
-        {image: 'https://telegra.ph/file/5c9e3a713d99e2989588b.png', name: 'Siddiqui Sufiyan', profession: 'Front End Developer'},
-        {image: 'https://telegra.ph/file/5c9e3a713d99e2989588b.png', name: 'Shaikh Aman', profession: 'Backend Developer'},
-        {image: 'https://telegra.ph/file/dd530b98d4077f4d5f913.jpg', name: 'Shaikh Rauf', profession: 'Front End Developer'}
-    ]
+    const users = process.env.MEMBERS;
+    console.log(users);
     return (
         <>
             <section className="text-gray-600 body-font">
@@ -42,7 +33,7 @@ const About = () => {
                         <p className="lg:w-2/3 mx-auto leading-relaxed text-base">We're a group of students persuing B.E at Anjuman-I-Islam's Kalsekar Technical Campus. Estimated passing date is May 2022. </p>
                     </div>
                     <div className="flex flex-wrap -m-2">
-                        {users.map(({image, name, profession}) => <UserCard image={image} name={name} profession={profession} />)}
+                        {users.map((user) => <UserCard user={user} />)}
                     </div>
                 </div>
             </section>
