@@ -23,7 +23,6 @@ const UserCard = ({user}) => {
 
 const About = () => {
     const users = process.env.MEMBERS;
-    console.log(users);
     return (
         <>
             <section className="text-gray-600 body-font">
