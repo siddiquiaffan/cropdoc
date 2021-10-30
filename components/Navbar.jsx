@@ -13,7 +13,7 @@ const Navbar = () => {
             <section id='nav' className={styles.nav + ' flex items-center flex-wrap p-3'}>
                 <Link href='/'>
                     <a className='inline-flex items-center p-2 mr-4'>
-                        <img src="https://telegra.ph/file/384b138abd49e8d13636f.png" width={50} height={50} alt="Logo" />
+                        <Image src="/assets/logo.png" width={60} height={60} alt="Logo" layout='intrinsic' />
                         <span className='text-xl text-white font-bold uppercase tracking-wide'>
                             Disease Predictor
                         </span>
