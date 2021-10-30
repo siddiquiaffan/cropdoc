@@ -3,6 +3,7 @@ import Router from 'next/router'
 import Layout from '../components/Layout'
 import { useState } from 'react'
 import { NextSeo } from 'next-seo'
+import Head from 'next/head'
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -18,7 +19,9 @@ function MyApp({ Component, pageProps }) {
       title={seo?.title ? seo?.title : 'Loading...'}
       description={seo?.description ? seo?.description : 'Loading...'}
     />
-
+    <Head>
+      <link rel='icon' href='/assets/logo.png' />
+    </Head>
     <Layout>
       {loading ? <Loader /> : <Component {...pageProps} seo={Component.seo} />}
     </Layout>
