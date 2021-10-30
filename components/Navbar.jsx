@@ -15,7 +15,7 @@ const Navbar = () => {
                     <a className='inline-flex items-center p-2 mr-4'>
                         <Image src="/assets/logo.png" width={60} height={60} alt="Logo" layout='intrinsic' />
                         <span className='text-xl text-white font-bold uppercase tracking-wide'>
-                            Disease Predictor
+                            Crop Doc
                         </span>
                     </a>
                 </Link>
