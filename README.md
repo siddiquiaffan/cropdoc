@@ -9,7 +9,7 @@ Click above to deploy to [vercel](https://vercel.com)
 
 --------
 ## Demo
-[![Demo](https://telegra.ph/file/7b7b86d7d17c6db49aee6.png)](https://disease-prediction.vercel.app/)
+[![Demo](https://telegra.ph/file/7b7b86d7d17c6db49aee6.png)](https://cropdoc.cf/)
 
 --------
 ## Contributers
