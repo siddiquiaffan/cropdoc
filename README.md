@@ -3,7 +3,7 @@ An AI based cotton plant disease prediction system.
 
 --------
 ## Deployment
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/AffanTheBest/disease-prediction&project-name=disease-prediction&repository-name=disease-prediction)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/siddiquiaffan/disease-prediction&project-name=cropdoc&repository-name=disease-prediction)
 
 Click above to deploy to [vercel](https://vercel.com)
 
@@ -13,7 +13,7 @@ Click above to deploy to [vercel](https://vercel.com)
 
 --------
 ## Contributers
-- [Siddiqui Affan](https://github.com/AffanTheBest/)
+- [Siddiqui Affan](https://github.com/siddiquiaffan/)
 - [Siddiqui Sufiyan](https://github.com/sufiyan571/)
 - [Shaikh Aman](https://www.github.com/Aman3786/)
 - [Shaikh Rauf](https://github.com/ImRauf/)
