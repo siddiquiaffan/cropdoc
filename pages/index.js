@@ -1,6 +1,7 @@
 import styles from '../styles/Home.module.scss'
 import HeroSection from '../components/HeroSection'
 import Link from 'next/link'
+import Upload from '../components/Upload'
 
 const Card = ({name, title, description, url}) => {
   return (
@@ -31,10 +32,11 @@ const Home = () => {
   return (
     <>
       <HeroSection />
+      <Upload />
       <Card 
         name="How does it works?"
-        title="Velit anim qui officia minim exercitation cupidatat ad ea Lorem quis nisi incididunt."
-        description="Do qui ullamco pariatur ipsum ex aliquip proident.Ex proident pariatur exercitation eiusmod minim dolore voluptate ullamco nostrud deserunt nostrud."
+        title="Working of the project."
+        description="When user uploads a crop image, it is first processed by our AI model and then classified into different categories. The categories are then used to train the model and the model is used to predict the disease of the crop."
         url=""
       />
       <Card 
