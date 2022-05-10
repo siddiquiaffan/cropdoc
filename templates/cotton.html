@@ -1,0 +1,266 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Cotton {% endblock title %} 
+
+
+
+{% block body %}
+
+<div class='my-5 d-flex justify-content-center align-items-center'>
+    <div class='container'>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item rounded-3 mb-5">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <b> Instructions for Uploading an Image. </b>
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body overflow-scroll scroll">
+                        <center> <strong><h3 class='text-decoration-underline'><b> INFO </b></h3> </strong> </center>
+                        <br>
+                        <strong><h4><b> Kindly follow the following steps to upload the image </b></h4></strong>
+                        <ul>
+                            <li>Click on the CHOOSE FILE button.</li>
+                            <li>A pop up window will appear.</li>
+                            <li>Select a file on your computer using the file browser locate the file. Click on the file name. After selecting an image, press the "OPEN" button.</li>
+                            <li>The image should now appear in the IMAGE PREVIEW section.</li>
+                            <li>Finally after having a preview of the image press the Predict button.</li>
+                        </ul>
+                        <br>
+                        
+                        <strong><h5><b>PLEASE NOTE:- </b> Please only upload the infected leaf image by plugging out the infected leaf and taking picture of it. Don't upload image of multiple leaves or whole plant.</h5></strong>
+                        <br><br>
+                        <h5 class='text-decoration-underline'><b>Image to be Upload in this form</b></h5>
+                        <br>
+                        <img src=".\static\images\dis_leaf (93)_iaip.jpg" alt="No Image" height=200 width=auto>
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row py-4">
+            <div class="col-lg-6 col-md-6 col-sm mx-auto">
+    
+                <!-- Upload image input-->
+                <form action="" method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    <div class="input-group mb-3 px-2 py-2 rounded-pill bg-white shadow-sm">
+                        <input id="upload" accept='image/*' type="file" onchange="readURL();" class="form-control border-0" name='photo' required>
+                        <label id="upload-label" for="upload" class="font-weight-light text-muted">No File Chosen</label>
+                        <div class="input-group-append">
+                            <label for="upload" class="btn btn-dark m-0 rounded-pill px-4"><small class="text-uppercase text-white font-weight-bold">Choose file</small></label>
+                        </div>
+                    </div>
+
+                    <center><button type='submit' class='btn-light p-2 rounded-3 fw-bolder fs-5 m-3'>Predict</button></center>
+                </form>
+    
+                <!-- Uploaded image area-->
+                {% if main_output %}
+                    <div class="image-area mt-4 mb-5"><img id="imageResult" src="{{image_url}}" alt="" class="img-fluid rounded shadow-sm mx-auto d-block"></div>     
+                {% else %}
+                    <div class="image-area mt-4 mb-5"><img id="imageResult" src="#" alt="" class="img-fluid rounded shadow-sm mx-auto d-block"></div>
+                {% endif %}
+                
+                
+                
+                {% comment %} Result for Prediction {% endcomment %}
+                <div class='mt-5 text-center'>
+                    <h3 class='text-white'>{{ans}}</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+{% comment %} For info  {% endcomment %}
+{% if main_output %}
+    {% if output %}
+        <div class='container'>
+            <div class='row my-4'>
+
+                {% comment %} for Disease info like symptons, managements etc {% endcomment %}
+                <div class='col-md-6 mb-3'>
+                    <div class="card rounded-3">
+                        <h4 class='text-info fw-bolder primary text-center m-3'>Disease Info</h4>
+                        <div class="card-body scroll">
+                            
+                            <h5 class='fw-bold fs-5'>{{disease}}</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mb-3'>
+                    <div class="card rounded-3">
+                        <h4 class='text-info fw-bolder primary text-center m-3'>Symptons</h4>
+                        <div class="card-body scroll">
+                            <ul>
+                                {% for sympt in symptons %}
+                                    <li class='fw-bold fs-5'>{{sympt}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mb-3'>
+                    <div class="card rounded-3">
+                        <h4 class='text-info fw-bolder primary text-center m-3'>Pathogen</h4>
+                        <div class="card-body scroll">
+                            <ul>
+                                {% for path in pathogen %}
+                                <li class='fw-bold fs-5'>{{path}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 mb-3'>
+                    <div class="card rounded-3">
+                        <h4 class='text-info fw-bolder primary text-center m-3'>Disease Cycle</h4>
+                        <div class="card-body scroll"> 
+                            <ul>
+                                {% for cycle in cycle %}
+                                <li class='fw-bold fs-5'>{{cycle}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class='col-md-6 offset-md-3 mb-3'>
+                    <div class="card rounded-3">
+                        <h4 class='text-info fw-bolder primary text-center m-3'>Management Ways</h4>
+                        <div class="card-body scroll">
+                            <ul>
+                                {% for managee in managee %}
+                                    <li class='fw-bold fs-5'>{{managee}}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        {% comment %} for blog link  {% endcomment %}
+        <div class='container'>
+            <h3 class='text-white fw-bolder fst-italic mt-5 mb-4'> Recommended Disease Blog Link :- </h3>
+            <div class='row g-2'>
+                {% for link in blog_link %}
+                <a type='button' href={{link}} class='col-md-4 btn btn-outline-danger p-2 rounded-3 fw-bolder fs-5' target="_blank" rel="noopener noreferrer">Read the Blog</a>
+                {% endfor %}
+            </div>
+        </div>   
+                
+
+
+        {% comment %} for Video related to disease  {% endcomment %}
+        <div class='container'>
+            <h3 class='text-white fw-bolder fst-italic mt-5 mb-4'>Recommended video Links :- </h3>
+            <div class='row'>
+                {% for yt_link in yt_link %}
+                <iframe class='col-md-4 mb-3' width=auto  height="250" src={{yt_link}} title="Srivalli song" frameborder="0"  allow="encrypted-media" allowfullscreen ng-show="showvideo">
+                </iframe>
+                {% endfor %}
+            </div>
+
+
+            {% comment %} Recommended medicine {% endcomment %}
+            <div class='row'>
+                <h3 class='text-white fw-bolder fst-italic mt-5 mb-4'>Recommended Medicine for Cotton crop :- </h3>
+                {% for medicine in medicine  %}
+                    <div class='col-md-4 mb-3'>
+                        <div class="card rounded-3">
+                            <img src={{medicine.img}} class="card-img-top" alt="No Image" height='250'>
+                            <div class="card-body">
+                                <h5 class='text-info fw-bolder primary  mb-3'>{{medicine.Name}}</h5>
+                                <a href={{medicine.link}} class="btn btn-outline-dark mt-1" target="_blank" rel="noopener noreferrer">check Out</a>       
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    {% elif sub_output %}
+    <div class='container'>
+        <div class='my-4'>
+            <h4 class='text-white fw-bolder my-3'>For More Info about the disease, Please refer this links..</h4>
+            <ul>
+                {% for link in links %}
+                    <li class='fw-bold fs-5 text-white'><a href="{{link}}" class='text-decoration-none text-white' target="_blank" rel="noopener noreferrer" >{{link}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+        
+    {% else %}
+
+        <div class='container'>
+            <div class='mb-4'>
+                <div class="card rounded-3">
+                    <h4 class='text-info fw-bolder primary text-center m-3'>Management</h4>
+                    <div class="card-body scroll">
+                        <ul>
+                            {% for managee in managee %}
+                                <li class='fw-bold fs-5'>{{managee}}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class='row'>
+                <h3 class='text-white fw-bolder fst-italic mt-5 mb-3'>Recommended Medicine for Cotton crop :- </h3>
+                {% for medicine in medicine  %}
+                    <div class='col-md-4 mb-3'>
+                        <div class="card rounded-3">
+                            <img src={{medicine.img}} class="card-img-top" alt="No Image" height='250'>
+                            <div class="card-body">
+                                <h5 class='text-info fw-bolder primary  mb-3'>{{medicine.Name}}</h5>
+                                <a href={{medicine.link}} class="btn btn-outline-dark mt-1 ">check Out</a>       
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+    {% endif %}
+
+{% endif %}
+
+
+
+        
+        
+
+<script>
+
+    function readURL(){
+        imageResult.src = URL.createObjectURL(event.target.files[0]);
+    }
+
+    var input = document.getElementById( 'upload' );
+    var infoArea = document.getElementById( 'upload-label' );
+
+    input.addEventListener( 'change', showFileName );
+    function showFileName( event ) {
+    var input = event.srcElement;
+    var fileName = input.files[0].name;
+    infoArea.textContent = fileName;
+    }
+
+</script>
+
+{% endblock body %}

@@ -1,0 +1,59 @@
+{
+    "Disease": "Anthracnose is caused by a fungus which grows into the bolls, stems, and leaves and kills their tissues, thus producing the rotten spots or dead areas. The fungus produces spores or tiny seeds in sticky masses on the diseased bolls and stems, giving the centers of the spots a pink color.",
+    "Symptons": [
+        "The fungus infects the seedlings and produces small reddish circular spots on the cotyledons and primary leaves.",
+        "The lesions develop on the collar region, stem may be girdled, causing seedling to wilt and die.",
+        "In mature plants, the fungus attacks the stem, leading to stem splitting and shredding of bark. The most common symptom is boll spotting.",
+        "Small water soaked, circular, reddish brown depressed spots appear on the bolls.",
+        "The lint is stained to yellow or brown, becomes a solid brittle mass of fiber. The infected bolls cease to grow and burst and dry up prematurely."
+    ],
+    "Pathogen": [
+        "The pathogen forms large number of acervuli on the infected parts.",
+        "The conidiophores are slightly curved, short, and club shaped.",
+        "The conidia are hyaline and falcate, borne single on the conidiophores.",
+        "Numerous black coloured and thick walled setae are also produced in acervulus."
+    ],
+    "Disease cycle": [
+        "The pathogen survives as dormant mycelium in the seed or as conidia on the surface of seed for about a year.",
+        "The pathogen also perpetuate on the rotten bolls and other plant 53 debris in the soil.",
+        "The secondary spread is by air-borne conidia. The pathogen also survives in the weed hosts, viz., Aristolachia bractiata and Hibiscus diversifolius."
+    ],
+    "Management": [
+        "Treat the delinted seeds with Carbendazim or Carboxin@2g/kg or Thiram or Captan at 4g/kg.",
+        "Remove and burn the infected plant debris and bolls in the soil.",
+        "Rogue out the reservoir weed hosts.",
+        "Spray the crop at boll formation stage with Mancozeb@0.25% or Copper oxychloride@0.3% or Ziram@0.25% or Carbendazim@0.1%."
+    ],
+    "Blog Link": [
+        "http://eagri.org/eagri50/PATH272/lecture13/004.html#:~:text=The%20pathogen%20infects%20the%20seedlings,seedling%20to%20wilt%20and%20die.",
+        "https://plantix.net/en/library/plant-diseases/100105/anthracnose-of-cotton",
+        "https://www.planetnatural.com/pest-problem-solver/plant-disease/anthracnose/"
+    ],
+    "Youtube Link": [
+        "https://www.youtube.com/embed/IMvWsly-Pg8",
+        "https://www.youtube.com/embed/OFZ-sVjjNSY",
+        "https://www.youtube.com/embed/XtV9RkP2i-E"
+    ],
+    "Medicine": [
+        {
+            "Name": "Sulfur Plant Fungicide",
+            "link": "https://www.planetnatural.com/product/sulfur-plant-fungicide/",
+            "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/sulfur-fungicide.jpg"
+        },
+        {
+            "Name": "Liquid Copper",
+            "link": "https://www.planetnatural.com/product/liquid-copper-fungicide/",
+            "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/liquid-copper-concentrate.jpg"
+        },
+        {
+            "Name": "Garden Dust (Bonide)",
+            "link": "https://www.planetnatural.com/product/garden-dust/",
+            "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/garden-dust.jpg"
+        },
+        {
+            "Name": "Neem Oil - RTU",
+            "link": "https://www.planetnatural.com/product/neem-oil-spray/",
+            "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/neem-spray.jpg"
+        }
+    ]
+}

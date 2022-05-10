@@ -1,0 +1,38 @@
+{
+  "Disease": "Late blight is a potentially serious disease of potato and tomato and is caused by the water mold pathogen Phytophthora infestans.This disease can affect all plant parts.",
+  "Symptoms": [
+    "The first symptoms of late blight on tomato leaves are irregularly shaped, water-soaked lesions, often with a lighter halo or ring around them, these lesions are typically found on the younger, more succulent leaves in the top portion of the plant canopy.",
+    "Spots are visible on both sides of the leaves.",
+    "As the disease progresses, lesions enlarge causing leaves to brown, shrivel and die.",
+    "Late blight can also attack tomato fruit in all stages of development."
+  ],
+  "Spread": [
+    "Entire leaves die and infections quickly spread to petioles and young stems.",
+    "Infected fruit turn brown but remain firm unless infected by secondary decay organisms."
+  ],
+  "Management": [
+    "Keep foliage dry. Locate your garden where it will receive morning sun.",
+    "Allow extra room between the plants, and avoid overhead watering, especially late in the day.",
+    "Purchase certified disease-free seeds and plants.",
+    "Destroy volunteer tomato and potato plants, as well as nightshade family weeds, such as Carolina horsenettle or black nightshade, which may harbor the fungus.",
+    "Do not compost rotten, store-bought potatoes. Pull out and destroy diseased plants.",
+    "If the disease is severe enough to warrant chemical control, select one of the following fungicides: chlorothalonil (very good), copper fungicide, or mancozeb (good)."
+  ],
+  "Blog Link": [
+    "https://hgic.clemson.edu/factsheet/tomato-diseases-disorders/",
+    "https://content.ces.ncsu.edu/tomato-late-blight",
+    "https://vegpath.plantpath.wisc.edu/resources/tomato-late-blight/"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/a0m3oXKhLDQ",
+    "https://www.youtube.com/embed/h7VqUAnGGdQ",
+    "https://www.youtube.com/embed/05wIoc9CpY4"
+  ],
+  "Medicine": [
+    {
+      "Name": "Bonide (BND883) - Fungal Disease Control, Fung-onil Multi-Purpose Ready to Use Fungicide (32 oz.)",
+      "link": "https://www.amazon.com/dp/B000BQ800K/",
+      "img": "https://m.media-amazon.com/images/I/416tkm0GMlL._AC_SY580_.jpg"
+    }
+  ]
+}

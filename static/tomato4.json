@@ -1,0 +1,40 @@
+{
+  "Disease": "Septoria leaf spot, also called Septoria blight, occurs throughout the United States and worldwide wherever tomatoes are grown. This disease can be quite destructive and crop losses of up to 100% have been reported in heavily defoliated fields. Septoria leaf spot is primarily a disease of tomato, but it has been reported on other Solanaceous hosts including eggplant, potato, petunia, horsenettle, and black nightshade.",
+  "Symptoms": [
+    "Less vigorous plant are usually affected Small, round to irregular spots with a grey center and dark margin on leaves.",
+    "Spots usually start on lower leaves and gradually advance upwards.",
+    "Complete defoliation of affected leaves.",
+    "Stems and flowers are sometimes attacked.",
+    "Spots coalesce and leaves are blighted."
+  ],
+  "Spread": [
+    "Mycelium or conidia in pycnidia in infected plant debris or on solanaceous weeds",
+    "Conidia through rain splash or wind and also by slimy conidia sticking on to hands and clothing of tomato pickers"
+  ],
+  "Management": [
+    "If caught early, the lower infected leaves can be removed and burned or destroyed.",
+    "If the plants can still be handled without breaking them, stake or cage the plants to raise them off the ground and promote faster drying of the foliage.",
+    "Overhead watering facilitates infection and spreads the disease. Use a soaker hose at the base of the plant to keep the foliage dry. Water early in the day.",
+    "Nightshade and horsenettle are frequently hosts of Septoria leaf spot and should be eradicated around the garden site."
+  ],
+  "Blog Link": [
+    "https://www.missouribotanicalgarden.org/gardens-gardening/your-garden/help-for-the-home-gardener/advice-tips-resources/pests-and-problems/diseases/fungal-spots/septoria-leaf-spot-of-tomato.aspx",
+    "https://content.ces.ncsu.edu/septoria-leaf-spot-of-tomato"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/iyBMystw_rs",
+    "https://www.youtube.com/embed/puyD8VPrV94"
+  ],
+  "Medicine": [
+    {
+      "Name": "GreenCure Gardening Vegetables Landscaping Bicarbonate",
+      "link": "https://www.amazon.in/GreenCure-Gardening-Vegetables-Landscaping-Bicarbonate/dp/B01NCOD0XT",
+      "img": "https://m.media-amazon.com/images/I/61H9AGhcGFL._SX522_.jpg"
+    },
+    {
+      "Name": "Aries Agro Limited Aries Plantomycin 50gms",
+      "link": "https://www.amazon.in/Aries-Agro-Limited-Plantomycin-50gms/dp/B07LFDWMXJ/ref=pd_aw_sim_sccl_14/261-7058390-0318321?pd_rd_w=mz6O8&pf_rd_p=ed056354-5324-44a9-beac-0eddcfca36fc&pf_rd_r=P9922GDRNRFQWRXH2KMF&pd_rd_r=e1eafc4b-4ce6-48fe-a730-bfd38b92bcc3&pd_rd_wg=IIzc4&pd_rd_i=B07LFDWMXJ&psc=1",
+      "img": "https://m.media-amazon.com/images/I/714III3k05L._SX679_.jpg"
+    }
+  ]
+}

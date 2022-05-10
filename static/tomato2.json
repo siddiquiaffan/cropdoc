@@ -1,0 +1,37 @@
+{
+  "Disease": "Early blight is a fungal disease, Alternaria sp., that occurs on tomatoes throughout North America. Early blight can affect seedlings but is generally observed on older plants and is especially severe on plants of poor vigor. Plants infected with the fungus can display collar rust on the stems, infected older leaves, and fruits that crack at the stem.",
+  "Symptoms": [
+    "This is a common disease of tomato occurring on the foliage at any stage of the growth.",
+    "The fungus attacks the foliage causing characteristic leaf spots and blight. Early blight is first observed on the plants as small, black lesions mostly on the older foliage.",
+    "Spots enlarge, and by the time they are one-fourth inch in diameter or larger, concentric rings in a bull's eye pattern can be seen in the center of the diseased area.",
+    "Tissue surrounding the spots may turn yellow. If high temperature and humidity occur at this time, much of the foliage is killed.",
+    "Lesions on the stems are similar to those on leaves, sometimes girdling the plant if they occur near the soil line."
+  ],
+  "Spread": [
+    "Blight spreads by fungal spores that are carried by insects, wind, water and animals from infected plants, and then deposited on soil.",
+    "The disease requires moisture to progress, so when dew or rain comes in contact with fungal spores in the soil, they reproduce."
+  ],
+  "Management": [
+    "Buy seeds and seedlings from reputable sources and inspect all plants before putting them in your garden.",
+    "Provide plenty of space for the plants. Good airflow will help keep the plants dry.",
+    "Keep tabs on your plants, especially during wet weather or if your plants become stressed. If you see signs of blight on a single plant, removing the plant is your best option.",
+    "Since early blight can over-winter on plant debris and in the soil, sanitation is essential. So many tomato diseases can come into your garden this way so it's very important to clean up all plant residue at the end of the season."
+  ],
+  "Blog Link": [
+    "https://www.thespruce.com/early-blight-on-tomato-plants-1402973",
+    "https://gardenerspath.com/how-to/disease-and-pests/early-blight-tomato/",
+    "https://hgic.clemson.edu/factsheet/tomato-diseases-disorders/"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/WGilXCaj0Zs",
+    "https://www.youtube.com/embed/2GYD7aVBFtg",
+    "https://www.youtube.com/embed/cslAfNxQDlg"
+  ],
+  "Medicine": [
+    {
+      "Name": "Serenade Garden",
+      "link": "https://www.planetnatural.com/product/serenade-garden-disease-control/",
+      "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/serenade-disease-control-400x440.jpg"
+    }
+  ]
+}

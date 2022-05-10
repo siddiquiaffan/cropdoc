@@ -1,0 +1,36 @@
+{
+  "Disease": "Tomato yellow leaf curl virus (TYLCV) is  known to cause devastating losses of up to 100 per cent in the yield of tomatoes. Both field and glasshouse grown tomatoes are susceptible. TYLCV is vectored by silverleaf white fly (Bemisia tabaci). Following recent detections, silverleaf whitefly is now considered established in Victoria.",
+  "Symptoms": [
+    "Leaf curl disease is characterized by severe stunting of the plants with downward rolling and crinkling of the leaves.",
+    "The newly emerging leaves exhibit slight yellow coloration and later they also show curling symptoms. Older leaves become leathery and brittle.",
+    "The nodes and internodes are significantly reduced in size.",
+    "The infected plants look pale and produce more lateral branches giving a bushy appearance.",
+    "The infected plants remain stunted."
+  ],
+  "Spread": [
+    "TYLCV is transmitted from diseased to healthy plants by silverleaf whitefly (Bemisia tabaci), which feeds on a wide range of hosts.",
+    "Levels of TYLCV can be correlated to the population size of its vector silverleaf whitefly.",
+    "It is not known if native whiteflies can spread the virus.",
+    "The virus is not known to be seedborne or to be transmitted mechanically."
+  ],
+  "Management": [
+    "symptomatic plants should be carefully covered by a clear or black plastic bag and tied at the stem at soil line",
+    "If symptomatic plants have no obvious whiteflies on the lower leaf surface, these plants can be cut from the garden and BURIED in the compost.",
+    "Inspect plants for whitefly infestations two times per week. If whiteflies are beginning to appear, spray with azadirachtin (Neem), pyrethrin or insecticidal soap."
+  ],
+  "Blog Link": [
+    "https://ipm.ifas.ufl.edu/agricultural_ipm/tylcv_home_mgmt.shtml",
+    "https://agriculture.vic.gov.au/biosecurity/plant-diseases/vegetable-diseases/tomato-yellow-leaf-curl-virus#h2-1"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/KX4jgiIzVd4",
+    "https://www.youtube.com/embed/YNFh1WnPmkg"
+  ],
+  "Medicine": [
+    {
+      "Name": "Aries Agro Limited Aries Plantomycin 50gms",
+      "link": "https://www.amazon.in/Aries-Agro-Limited-Plantomycin-50gms/dp/B07LFDWMXJ/ref=pd_aw_sim_sccl_14/261-7058390-0318321?pd_rd_w=mz6O8&pf_rd_p=ed056354-5324-44a9-beac-0eddcfca36fc&pf_rd_r=P9922GDRNRFQWRXH2KMF&pd_rd_r=e1eafc4b-4ce6-48fe-a730-bfd38b92bcc3&pd_rd_wg=IIzc4&pd_rd_i=B07LFDWMXJ&psc=1",
+      "img": "https://m.media-amazon.com/images/I/714III3k05L._SX679_.jpg"
+    }
+  ]
+}

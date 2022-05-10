@@ -1,0 +1,32 @@
+{
+  "Disease": "ToMV is a positive-sense, single-stranded RNA virus belonging to the Virgaviridae family, Tobamovirus genus. It is a kind of plant virus with worldwide distribution and has a wide range of hosts, which can not only infect Solanaceae, Cruciferae, and other vegetable crops, but also infect flowers and seedlings, etc. ToMV causes mosaic disease of many important crop plants, especially threatening tomato production worldwide.",
+  "Symptoms": [
+    "ToMV may attack plants at any growth stage and any part of the plants.",
+    " Different infectious parts may show distinct symptoms",
+    "The intensity of these symptoms are associated with the nature of the strains, cultivar, age of the infected plant, temperature, intensity of light, and nitrogen and boron soil content.",
+    "The leaves of the infected plants are yellow and green, with a mosaic and mottled appearance."
+  ],
+  "Spread": [
+    "ToMV is a particularly stable virus that can survive for several years in soil or other substrates, especially in the disinfected remains of leaves and roots, which is the main source of transmission and spread of the virus.",
+    "It is spread mainly by mechanical friction, and seeds, leaf and root debris also carry the virus."
+  ],
+  "Management": [
+    "To avoid seed-borne mosaic viruses, soak seeds of susceptible plants in a 10% bleach solution before planting.",
+    "Mosaic viruses are mostly spread by insects, especially aphids and leafhoppers. You can try covering your plants with a floating row cover or aluminum foil mulches to prevent these insects from infecting your plants.",
+    "Monitor the rest of your plants closely, especially those that were located near infected plants."
+  ],
+  "Blog Link": [
+    "https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/tomato-mosaic-virus",
+    "https://www.cusabio.com/c-21032.html"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/_w5GwfbVytE"
+  ],
+  "Medicine": [
+    {
+      "Name": "Geolife No Virus Organic Viricide For Tomato",
+      "link": "https://geolifeshop.com/products/geolife-no-virus-organic-viricide-for-tomato-cucurbit?variant=40785126719682&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2022-04-06&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMInc7Nmeua9wIVX9xMAh0cygXeEAQYAiABEgL5IfD_BwE",
+      "img": "https://cdn.shopify.com/s/files/1/0597/4507/5394/products/NVT_C_1024x1024.jpg?v=1630993356"
+    }
+  ]
+}

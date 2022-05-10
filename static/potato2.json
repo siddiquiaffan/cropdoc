@@ -1,0 +1,51 @@
+{
+  "Disease": "Late blight caused by the fungus Phytophthora infestans is the most important disease of potato that can result into crop failures in a short period if appropriate control measures are not adopted.",
+  "Symptoms": [
+    "Leaf symptoms include circular, necrotic or brown lesions surrounded by collapsed pale or chlorotic (pale green to yellow) tissue.",
+    "Enlarged, water- soaked or wet and oily-appearing leaf lesions often give rise to sporulation, identifiable by white or gray fuzzy growth.",
+    "Dark green, brown, or black water-soaked lesions on the stem may also contain sporulation.",
+    "Symptomatic tubers typically have sunken and firm brown lesions that may extend several centimeters into the tuber.",
+    "The variability in lesion appearance is often the result of differences in moisture."
+  ],
+  "Spread": [
+    "The fungus over-summers as mycelium in the infected seed potato kept in cold stores.",
+    "These tubers when planted in the next crop season (main crop and subsequent ones) serve as the source of primary inoculum.",
+    "When the plants emerge from such tubers, the fungus invades a few of the growing sprouts and sporulates (produce sporangia) under humid conditions. Further spread of the disease takes place by these sporangia through air or rain splashes.",
+    "Initiation of the disease generally takes about 3-7 days before clearly visible symptoms develop. The fungus produces white sporulation on the underside of the leaves which is clearly visible in the early morning hours.",
+    "These sporangia further infect new leaves and stems of the nearby plants and this cycle continues after every 4-10 days depending upon the prevailing temperature and humidity levels."
+  ],
+  "Management": [
+    "Destroy all cull and volunteer potatoes.",
+    "Plant late blight-free seed tubers.",
+    "Do not mix seed lots because cutting can transmit late blight.",
+    "Use a seed piece fungicide treatment labeled for control of late blight Recommended seed treatments include Revus, Reason and mancozeb.",
+    "Avoid planting problem areas that may remain wet for extended periods or may be difficult to spray (the center of the pivot, along powerlines and tree lines)."
+  ],
+  "Blog Link": [
+    "https://www.pau.edu/potato/lb_disease.php",
+    "https://www.ag.ndsu.edu/publications/crops/late-blight-in-potato",
+    "https://www.apsnet.org/edcenter/disandpath/oomycete/pdlessons/Pages/LateBlight.aspx"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/xvvHUHpfQbw",
+    "https://www.youtube.com/embed/V8uI0BuGyCk",
+    "https://www.youtube.com/embed/2tvP9N0DwJw"
+  ],
+  "Medicine": [
+    {
+      "Name": "Liquid Copper Spray",
+      "link": "https://www.planetnatural.com/product/liquid-copper-spray/",
+      "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/liquid-copper-spray-400x440.jpg"
+    },
+    {
+      "Name": "Plant Doctor",
+      "link": "https://www.planetnatural.com/product/exel-lg-systemic-fungicide/",
+      "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/plant-doctor-400x440.jpg"
+    },
+    {
+      "Name": "Natural Disease Control",
+      "link": "https://www.planetnatural.com/product/natural-disease-control/",
+      "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/natural-disease-control.jpg"
+    }
+  ]
+}

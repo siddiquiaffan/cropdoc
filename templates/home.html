@@ -1,0 +1,128 @@
+{% extends 'base.html' %}
+
+{% block title %}
+      Home
+{% endblock title %}
+
+
+{% block body %}
+
+    <div class='my-5 d-flex justify-content-center align-items-center'>
+      <div class='container'>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item rounded-3 mb-5">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                INFO  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle mx-1" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg>
+              </button>
+            </h2>
+
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body overflow-scroll scroll">
+                <center> <strong> <h3 class='text-decoration-underline'><b> PROJECT INFO</b> </h3> </strong> </center>
+                <br>
+                <center><strong><h5 class='text-decoration-underline'><b> Group Member </b></h5></strong></center>
+                <center>
+                    <li><b>Shaikh Rauf Yoosaf</b></li>
+                    <li><b>Siddiqui Sufiyan</b></li>
+                    <li><b>Siddiquee Mohd Affan</b></li>
+                    <li><b>Amaan Fakruddin Shaikh</b></li>
+                </center>
+
+                <br>
+                <br>
+                <center><strong><h5 class='text-decoration-underline'><b> Project Description </b></h5></strong></center>
+                <br>
+                <ul>
+                    <li>CropDoc is a system which is capable of predicting Diseases of Multiple category and Provide much accurate result of 85% to 90%.</li>
+                    <li>Along with the Prediction result, system shows an Different information at different level for that predicted result</li>
+                    <li>Tech Stacks used for the Project are:- 
+                      <ul>
+                        <li>Python</li>
+                        <li>Mysql</li>
+                        <li>Deep Learning Algo</li>
+                        <li>HTML</li>
+                        <li>Bootstrap</li>
+                        <li>Javascript</li>
+                        <li>Django</li>
+                        <li>Numpy</li>
+                        <li>Tensorflow</li>
+                        <li>Keras</li>
+                        <li>Matplotlib</li>
+                        <li>AWS</li>
+                      </ul>
+                    </li>
+                </ul>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class='container my-5'>
+      <div class='row justify-content-center align-content-center'>
+        <div class="card border-info rounded-3">
+          <div class="card-body">
+              <div>
+                <div class="row gy-3">
+
+                  
+                  
+                  <div class="col-md-6">
+                    <div class="card shadow rounded">
+                      <img src="https://media.istockphoto.com/vectors/vector-illustration-of-a-funny-tomato-in-cartoon-style-vector-id1189117605?k=20&m=1189117605&s=612x612&w=0&h=008fe5iQb8xqrs96QdlblQTe8Bi8BKZHjuuFVF-ZKWY=" class="card-img-top" alt="No Image" height=450>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder fs-4">tomato</h5>
+                        <p class="card-text">Get your tomato leaf get predicted from us and along with the lots of information.</p>
+                        <a href="{% url 'tomato' %}" class="btn btn-outline-dark mt-1">Go Predict</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6">
+                    <div class="card shadow rounded">
+                      <img src="https://media1.thehungryjpeg.com/thumbs2/ori_3790258_1o0sowweoy1gpatxhcsbytxerskfj16ba4ja3504_cotton-leaf.png" class="card-img-top" alt="No Image" height=450>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder fs-4">Cotton</h5>
+                        <p class="card-text">Get your Cotton leaf get predicted from us and along with the lots of information.</p>
+                        <a href="{% url 'cotton' %}" class="btn btn-outline-dark mt-1">Go Predict</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 offset-md-3">
+                    <div class="card shadow rounded">
+                      <img src="https://media.istockphoto.com/vectors/potato-plant-vector-isolated-illustration-vector-id1153044117?k=20&m=1153044117&s=170667a&w=0&h=gvw2q8MsBIbrHBB7iaVCzis_M_mYzgEq-heQp1ZUNvA=" class="card-img-top" alt="No Image" height=450>
+                      <div class="card-body">
+                        <h5 class="card-title fw-bolder fs-4">Potato</h5>
+                        <p class="card-text">Get your Potato leaf get predicted from us and along with the lots of information.</p>
+                        <a href="{% url 'potato' %}" class="btn btn-outline-dark mt-1">Go Predict</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% comment %} https://www.clipartmax.com/png/middle/63-631073_simple-cartoon-tomato-cartoon-tomato-stickers-by-mdkgraphics-animated-images-of-tomato.png {% endcomment %}
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+{% endblock body %}
+
+
+
+
+
+{% comment %} #011c21
+#024450 {% endcomment %}

@@ -1,0 +1,31 @@
+{
+    "Management" : [
+        "Since many tomato pathogens live in the soil, plant tomatoes in a different spot in the garden each year.",
+        "Don’t work in the garden when tomato foliage is wet or you may inadvertently spread pathogens from plant to plant.",
+        "Pinch off leaves with any signs of disease immediate and dispose of them in the trash to keep a possible infection from spreading.",
+        "Provide adequate air circulation around each plant. Here’s our guide to spacing tomatoes properly.",
+        "Disinfect the empty pots if you grow your tomatoes in containers, using a 10% bleach solution at the end of the growing season and replace the spent potting soil with a new mix every spring."
+    ],
+    "Medicine" : [
+        {
+            "Name": "Geolife No Virus Organic Viricide For Tomato",
+            "link": "https://geolifeshop.com/products/geolife-no-virus-organic-viricide-for-tomato-cucurbit?variant=40785126719682&currency=INR&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2022-04-06&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMInc7Nmeua9wIVX9xMAh0cygXeEAQYAiABEgL5IfD_BwE",
+            "img": "https://cdn.shopify.com/s/files/1/0597/4507/5394/products/NVT_C_1024x1024.jpg?v=1630993356"
+        },
+        {
+            "Name": "GreenCure Gardening Vegetables Landscaping Bicarbonate",
+            "link": "https://www.amazon.in/GreenCure-Gardening-Vegetables-Landscaping-Bicarbonate/dp/B01NCOD0XT",
+            "img": "https://m.media-amazon.com/images/I/61H9AGhcGFL._SX522_.jpg"
+        },
+        {
+            "Name": "Bonide (BND883) - Fungal Disease Control, Fung-onil Multi-Purpose Ready to Use Fungicide (32 oz.)",
+            "link": "https://www.amazon.com/dp/B000BQ800K/",
+            "img": "https://m.media-amazon.com/images/I/416tkm0GMlL._AC_SY580_.jpg"
+        },
+        {
+            "Name": "Serenade Garden",
+            "link": "https://www.planetnatural.com/product/serenade-garden-disease-control/",
+            "img": "https://www.planetnatural.com/wp-content/uploads/2013/03/serenade-disease-control-400x440.jpg"
+        }
+    ]
+}

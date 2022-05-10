@@ -1,0 +1,43 @@
+{
+  "Disease": "Bacterial spot of tomato is a potentially devastating disease that, in severe cases, can lead to unmarketable fruit and even plant death.  Bacterial spot can occur wherever tomatoes are grown, but is found most frequently in warm, wet climates, as well as in greenhouses.  The disease is often an issue in Wisconsin.",
+  "Symptoms": [
+    "Infected leaves show small, brown, water soaked, circular spots surrounded with yellowish halo.",
+    "On older plants the leaflet infection is mostly on older leaves and may cause serious defoliation.",
+    "The most striking symptoms are on the green fruit. Small, water-soaked spots first appear which later become raised and enlarge until they are one-eighth to one-fourth inch in diameter.",
+    "Centers of these lesions become irregular, light brown and slightly sunken with a rough, scabby surface."  
+  ],
+  "Spread": [
+    "The major sources of infection for these bacteria are thought to be seed and infected crop debris.",
+    "Like the bacterial speck pathogen, they also may be present on volunteer tomato plants and on the surfaces of contaminated equipment.",
+    "The bacteria are spread primarily by splashing water and wind-driven rain or mists produced during storms."
+  ],
+  "Management": [
+    "Remove affected tomato leaves and discard, do not compost",
+    "Improve air circulation around the plants. Prune plants to promote air circulation.",
+    "Avoid overhead watering by using drip or furrow irrigation. Apply mulch to reduce splashing water on the lower leaves and water only at the base of the plant.",
+    "Implement crop rotation and do not grow tomatoes in the same location for 1-2 years.",
+    "Only use certified disease-free seeds and plants."
+  ],
+  "Blog Link": [
+    "https://hgic.clemson.edu/factsheet/tomato-diseases-disorders/",
+    "https://vikaspedia.in/agriculture/crop-production/integrated-pest-managment/ipm-for-vegetables/ipm-strategies-for-tomato/tomato-diseases-and-symptoms",
+    "https://www.gardendesign.com/tomato/diseases-pests.html"
+  ],
+  "Youtube Link": [
+    "https://www.youtube.com/embed/RZ2Hhsj4ITU",
+    "https://www.youtube.com/embed/sNh7QYWY9fQ",
+    "https://www.youtube.com/embed/aC4Yj_1MrtM"
+  ],
+  "Medicine": [
+    {
+      "Name": "Plantic Total Plant Care 3 in 1, Fungicide, Miticide, Insecticide",
+      "link": "https://plantic.in/products/total-plant-care-three-in-one",
+      "img": "https://plantic.in/image/total-plant-care1.jpg"
+    },
+    {
+      "Name": "BOROGOLD Preventive Fungicide And Bactericide , Broad Spectrum, Colloidal Silver Nano technology.",
+      "link": "https://agribegri.com/products/buy-fungicide-in-india--borogold-fungicide.php",
+      "img": "https://agribegri.com/admin/images/prod_image/41d2ca9772dd8ac59648b8b9eb9ecbda-07-29-19-11-34-03.jpg?scale.height=400"
+    }
+  ]
+}
